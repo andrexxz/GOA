@@ -1,0 +1,1 @@
+print("hello Im andria korchilava. i live in gory, im thirteen. ")  
