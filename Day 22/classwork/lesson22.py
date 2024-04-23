@@ -1,5 +1,4 @@
-i = "goa"
-while input("who is the best academy?:  ") != i:
+while input("who is the best academy?:  ")  :
     input("who is the best academy?:  ")
 
 else:
