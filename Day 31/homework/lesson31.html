@@ -1,0 +1,36 @@
+<!--შექმენით ფორმა, სადაც მომხმარებელი შეიტანს სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select, ერთი იქნება საჭმელების ჩამონათვალი, მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი, მესამეში იქნება მანქანების ჩამონათვალი, ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა ინფორმაციას გადააგზავნის ბაზაში, კოდი დაწერეთ სწორად, სტრუქტურის დაცვით, ატრიბუტების გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="name" placeholder="enter name "><br><br>
+        <input type="text" name="surname" placeholder="enter surname"><br><br>
+        <input type="email" name="gmail" placeholder="enter gmail" ><br><br>
+        <input type="password" name="password" placeholder="enter password" ><br><br>
+        <label for="food">enter best food</label><br>
+        <select id = "food" name="food">
+            <option value="burger">burger</option>
+            <option value="chips">chips</option>
+            <option value="fruit">fruit</option><br>
+        </select><br>
+        <label for="sport">enter  best sport</label><br>
+        <select id="sport" name="sport">
+            <option value="football">football</option>
+            <option value="bascetball">bascetball</option>
+            <option value="rugbi">rugbi</option><br>
+        <select><br>
+        <label for="cars">enter best car</label><br>
+        <select id="cars" name="cars">
+            <option value="bugatti">bugatti</option>
+            <option value="lamborgini">lamborgini</option>
+            <option value="prius_c">prius_c</option><br>
+        </select><br><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
