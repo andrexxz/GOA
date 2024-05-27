@@ -1,4 +1,4 @@
-text = "goa is the best"
-new_text = text.replace(" ", "")
-print(new_text)
+academy = "goa is the best"
+new_academy = academy.replace(" ", "")
+print(new_academy)
 #ეს არ გვისწავლია მაგრამ მეთვითონ მოვიძიე<3
