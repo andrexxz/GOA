@@ -1,0 +1,2 @@
+classmates = ["gio qareli", "mishiko berelidze","saba lomsadze","luxumi zurabiani","saba cercvadze","saba kubliashvili","sandro chapidze","giviko yavrishvili","saba isakadze","giorgi aladashvili","luka sixarulidze","mate kotorashvili","andria shanava"]
+print(classmates[2:12])
