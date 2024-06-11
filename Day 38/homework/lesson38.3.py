@@ -1,0 +1,16 @@
+goaclassmates = ["gio qareli", "mishiko berelidze","saba lomsadze","luxumi zurabiani","saba cercvadze","saba kubliashvili","sandro chapidze","giviko yavrishvili","saba isakadze","giorgi aladashvili","luka sixarulidze","mate kotorashvili","andria shanava", "davit cixelashvili"]
+
+print(goaclassmates[0] + " kargad aqtiurobs,aris megobruli da mondomebuli")
+print(goaclassmates[1] + " aqtiurobs,magram meti aqtiuroba seudzlia")
+print(goaclassmates[2] + " aqtiurobs,xsirad aqvs kitxvebze pasuxebi")
+print(goaclassmates[3] + " kargad aqtiurobs,ar akebs aqtiurobas")
+print(goaclassmates[4] + " aqtiurobs,magram meti aqtiuroba seudzlia")
+print(goaclassmates[5] + " aqtiurobs,xsirad aqvs kitxvebze pasuxebi")
+print(goaclassmates[6] + " kargad aqtiurobs,aris megobruli da mondomebuli")
+print(goaclassmates[7] + " kargad aqtiurobs,aris megobruli da mondomebuli")
+print(goaclassmates[8] + " aqtiurobs,xsirad aqvs kitxvebze pasuxebi")
+print(goaclassmates[9] + " kargad aqtiurobs,ar akebs aqtiurobas")
+print(goaclassmates[10] + " aqtiurobs,xsirad aqvs kitxvebze pasuxebi")
+print(goaclassmates[11] + " kargad aqtiurobs,ar akebs aqtiurobas")
+print(goaclassmates[12] + " kargad aqtiurobs,aris megobruli da mondomebuli")
+print(goaclassmates[13] + " aqtiurobs,xsirad aqvs kitxvebze pasuxebi")
