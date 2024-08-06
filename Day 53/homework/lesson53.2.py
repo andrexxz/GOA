@@ -7,4 +7,6 @@ def average():
         sum = sum + numbers[i]
     average = sum / len(numbers)
 
-    print("Average of numbers from 1 to 20: " + str(average))
+    print("Average of numbers: " + str(average))
+
+average()
