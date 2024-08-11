@@ -2,6 +2,8 @@
 def number():
     question = int(input("please enter number:  "))
     if question > 10:
-        return("magaria")
+        return("მაგარია!")
     else:
-        return("try again")    
+        return("try again")
+    
+print(number())

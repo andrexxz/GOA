@@ -5,4 +5,7 @@ def umciresi():
     if question0 < question1:
         return(question0)
     elif question1 < question0:
-        return(question1)    
+        return(question1)
+    
+    
+print(umciresi())
