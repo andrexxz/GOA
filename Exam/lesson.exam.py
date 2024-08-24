@@ -53,5 +53,6 @@ while question == "deposit":
     balance += deposit
     question = input("something else?(withdraw/deposit/nothing)")
     if question == "nothing":
+        print("ok, your balance is " , balance)
         log_out = input("log out:")
         print("sucsesfully logged out. bie")
