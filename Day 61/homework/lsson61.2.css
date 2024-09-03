@@ -1,0 +1,35 @@
+/* სტილის დამემკვიდრება */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-list {
+    padding: 20px;
+}
+
+.book {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Descendant selector */
+.book .book-title {
+    color: #333;
+}
+
+/* Class selector */
+.author {
+    color: #777;
+}
