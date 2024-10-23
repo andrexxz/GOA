@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივი</title>
+    <!--1) შექმენით დივი რომლესაც თავდაპირევლად ექნება ზომები 100, 100ზე ხოლო ფერი იქნება წითელი, როდესაც მომხმარებელი მაუუს მიიტანს ამ დივთან მისი ზომა გაიზრდება 50-50px ით შეეცვლება ბექგრაუნდ ფერი და როდესაც მომხარებელი მას დააჭერს ჩამოვიდეს დაბლა 200px ით და თნ შეიცვალოს ფერი ეს ყველაფერი მოხდეს სმუზად -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        #myDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: 0.3s ;
+            position: relative;
+        }
+        #myDiv:hover {
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+        }
+        #myDiv:active {
+            margin-top: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center><div id="myDiv"></div></center>
+</body>
+</html>
