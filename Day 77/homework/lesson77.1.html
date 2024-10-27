@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table with Fixed Header</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        .table-container {
+            width: 80%;
+            max-height: 400px;
+            overflow-y: auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1em;
+        }
+        thead th {
+            background-color: #3ff0cd;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 12px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        tbody td {
+            background-color: #03f3c3;
+            padding: 12px;
+            text-align: center;
+            color: #333333;
+        }
+        tbody tr {
+            background-color: #1abc9c;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>Change %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Australian Company</td>
+                    <td>$1.38</td>
+                    <td>+2.01</td>
+                    <td>-0.36%</td>
+                </tr>
+                <tr>
+                    <td>Ausenco</td>
+                    <td>$2.38</td>
+                    <td>-0.01</td>
+                    <td>-1.36%</td>
+                </tr>
+                <tr>
+                    <td>Adelaide</td>
+                    <td>$3.22</td>
+                    <td>+0.01</td>
+                    <td>+1.36%</td>
+                </tr>
+                <tr>
+                    <td>Aditya Birla</td>
+                    <td>$1.02</td>
+                    <td>-1.01</td>
+                    <td>+2.36%</td>
+                </tr>
+                <tr>
+                    <td>Australian Company</td>
+                    <td>$1.38</td>
+                    <td>+2.01</td>
+                    <td>-0.36%</td>
+                </tr>
+                <tr>
+                    <td>Ausenco</td>
+                    <td>$2.38</td>
+                    <td>-0.01</td>
+                    <td>-1.36%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

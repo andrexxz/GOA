@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            color: #87CEEB;
+        }
+        .table-container {
+            margin: 20px auto;
+            width: 50%;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            
+            background: #0073e6;
+            padding: 12px;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        .a{
+            background-color: #f2f2f2;
+        }
+        .aa{
+            color: blue;
+            font-weight: bold;
+            border-top: 3px solid blue;
+            border-bottom: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Styling Tables in CSS</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Jade</td>
+                    <td>$150</td>
+                </tr>
+                <tr class="a">
+                    <td>Cleveland</td>
+                    <td>Brown</td>
+                    <td>$250</td>
+                </tr>
+                <tr class="aa">
+                    <td>John</td>
+                    <td>Peter</td>
+                    <td>$100</td>
+                </tr>
+                <tr class="a">
+                    <td>Joe</td>
+                    <td>Swanson</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                    <td>$150</td>
+                </tr>
+                <tr class="a">
+                    <td>Peter</td>
+                    <td>Smith</td>
+                    <td>$100</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

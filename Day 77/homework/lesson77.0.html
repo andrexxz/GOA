@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .table-container {
+            width: 80%;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e0e0e0; /* Add bottom border to container */
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1em;
+        }
+        th {
+            background-color: #00bcd4;
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+        td {
+            padding: 15px;
+            text-align: center;
+            color: #888;
+        }
+        tr {
+            border-top: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
