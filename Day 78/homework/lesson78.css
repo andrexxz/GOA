@@ -1,13 +1,13 @@
 /* Margin და Padding მაგალითი */
 .box {
     background-color: #f0f0f0;
-    margin: 20px;  /* გარე სივრცე */
-    padding: 20px; /* შიდა სივრცე */
+    margin: 20px;  /*ელემენტის გარე სივრცე */
+    padding: 20px; /*ელემენტის შიდა სივრცე */
     border: 2px solid #333;
 }
 /* List Style მაგალითი */
 ul.styled-list {
-    list-style-type: square;         /* წერტილების ფორმა: კვადრატი */
-    list-style-position: inside;     /* პოზიცია: შიგნით */
-    list-style-image: url('tasty.jpg'); /* სურათის ჩასმა bullet-ების ადგილას */
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url('tasty.jpg');
 }
