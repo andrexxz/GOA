@@ -1,7 +1,0 @@
-.border-table{
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #000;
-    border-top: 3px dotted #f00;
-    border-bottom: 2px dashed #00f;
-}

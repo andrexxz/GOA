@@ -1,10 +1,13 @@
-#მომხარებელს შემოატანინეთ მშობლების ასაკი, დედის და მამის ასაკი, შემდეგ თუ დედის ასაკი მეტი იქნება მამის ასაკზე დაგვიბეჭდოს რომ დედა დიდი მამაზე, თუ პირიქით მამის ასაკი მეტი იქნება დედის ასაკზე მაგ შემთხვევაში დაგვიბეჭდოს რომ მამა დიდია დედაზე. მინიშნება დაგჭირდებათ (if)
+# სარეგისტრაციო ფორმა
+correct_email = "example@example.com"  # სწორი ელფოსტის მაგალითი
+correct_password = "password123"       # სწორი პაროლის მაგალითი
 
-moms_age = int(input("how old are your mom?:  "))
-dads_age = int(input("how old are your dad?:  "))
+# მომხმარებლის მიერ შეყვანილი მონაცემები
+email = input("შეიყვანეთ თქვენი ელფოსტა: ")
+password = input("შეიყვანეთ თქვენი პაროლი: ")
 
-if moms_age > dads_age:
-    print("mom is older than dad")
-
-if moms_age < dads_age:
-    print("dad is older than mom")
+# მონაცემების შემოწმება
+if email == correct_email and password == correct_password:
+    print(True)
+else:
+    print(False)
