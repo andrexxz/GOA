@@ -3,7 +3,7 @@
     height: 75px;
     border-radius: 15px;
     position: relative;
-    animation: css 5s infinite linear;
+    animation: css 0.01s infinite linear;
     background-color: green;
     
 }
@@ -15,13 +15,23 @@
         left: 0;
     }
     
-    50% {
+    25% {
         transform: translateX(300px) rotateZ(180deg);
         background-color: red;
         left: calc(30% - 50px);
     }
-    100% {
+    50% {
         transform: translateX(0) rotateZ(360deg);
+        background-color: green;
+        left: 0;
+    }
+    75% {
+        transform: translateX(300px) rotateZ(540deg);
+        background-color: red;
+        left: calc(-60% - 50px);
+    }
+    100% {
+        transform: translateX(0) rotateZ(720deg);
         background-color: green;
         left: 0;
     }
