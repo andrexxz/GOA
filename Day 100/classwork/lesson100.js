@@ -1,0 +1,1 @@
+console.log("No classwork for today.");
